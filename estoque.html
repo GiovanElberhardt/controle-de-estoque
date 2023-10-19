@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"  href="/estilo.css" />
+    <title>Cadastrar Itens</title>
+</head>
+<body style="background-color: rgb(72, 122, 179);">
+    <p><a href="http://localhost:8081"> Menu</a></p>
+    <p><a href="http://localhost:8081/listar"> Listar Itens em Estoque</a></p>
+    <h1>Cadastrar Itens</h1>
+    <form action="/adicionar" method="post">
+        <label for= "descricao">Descriçao: </label>
+        <input type="text" id="descricao" name="descricao" required><br>
+
+        <label for= "quantidade">Quantidade: </label>
+        <input type="text" id="quantidade" name="quantidade" required><br>
+
+        <label for= "valor">Valor: </label>
+        <input type="text" id="valor" name="valor" required><br>
+        
+        <label for= "peso">Peso: </label>
+        <input type="text" id="peso" name="peso" required><br>
+
+        <label for= "medida">Medida: </label>
+        <input type="text" id="medida" name="medida" required><br>
+        
+        <label for= "localizacao">Localizacao: </label>
+        <input type="text" id="localizacao" name="localizacao" required><br>
+
+        <input type="submit" value="Cadastrar">
+    </form>
+</body>
+</html>
